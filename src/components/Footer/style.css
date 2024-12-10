@@ -19,16 +19,26 @@
 }
 
 .div-imgs {
-  display: flex;
-  justify-content: center; /* Centraliza os ícones */
-  gap: 20px; /* Espaça os ícones */
+  text-align: center; /* Centraliza o conteúdo */
 }
 
-.div-imgs img {
-  width: 65px; /* Tamanho fixo para as imagens dos ícones */
-  height: auto; /* Mantém a proporção das imagens */
-  object-fit: contain; /* Garante que a imagem não distorça */
+.div-imgs p {
+  margin-bottom: 10px; /* Espaçamento entre o texto e os ícones */
+  font-size: 16px; /* Ajuste do tamanho do texto, se necessário */
 }
+
+.icons {
+  display: flex;
+  justify-content: center; /* Centraliza os ícones horizontalmente */
+  gap: 20px; /* Espaçamento entre os ícones */
+}
+
+.icons img {
+  width: 40px; /* Tamanho fixo para os ícones */
+  height: 40px; /* Mantém o tamanho proporcional */
+  object-fit: contain; /* Garante que os ícones não distorçam */
+}
+
 
 /* Outros estilos do Footer */
 .footer-links ul {
