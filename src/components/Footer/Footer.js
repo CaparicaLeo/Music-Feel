@@ -33,19 +33,12 @@ const Footer = () => (
         </li>
       </ul>
     </div>
-    <div className='div-links'>
+    <div className='div-imgs'>
       <p>2024 Music Feel. Todos os direitos reservados.</p>
-      <div className="div-imgs">
-        {/* Links para as redes sociais */}
-        <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
-          <img src={youtube} alt="YouTube" />
-        </a>
-        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-          <img src={instagram} alt="Instagram" />
-        </a>
-        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-          <img src={facebook} alt="Facebook" />
-        </a>
+      <div>
+        <img src={youtube} alt="YouTube" />
+        <img src={instagram} alt="Instagram" />
+        <img src={facebook} alt="Facebook" />
       </div>
     </div>
   </footer>
