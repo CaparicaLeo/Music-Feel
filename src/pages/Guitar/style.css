@@ -1,0 +1,54 @@
+/* Estilos para o container do curso */
+.guitar-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.guitar-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.guitar-container p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #dcdcdc;
+}
+
+/* Grid de aulas */
+.lessons-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Para garantir que se ajuste em telas menores */
+}
+
+/* Cartões de aula */
+.lesson-card {
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 220px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.lesson-card:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.lesson-card img {
+    width: 100%;
+    height: auto;
+}
+
+.lesson-card h3 {
+    margin: 15px 0;
+    font-size: 1rem;
+    color: #ffd700;
+}
