@@ -8,11 +8,21 @@
     font-family: Arial, sans-serif;
 }
 
-.logo h1 {
-    font-size: 2rem;
-    color: #ab47bc;
-    margin-bottom: 20px;
-}
+/* Ajustes para a Logo */
+.logo {
+    width: 250px; 
+    height: auto; 
+    object-fit: contain; 
+    margin-left: -10px; 
+    position: absolute;
+    top: -60px; 
+    left: -30px;
+  }
+  
+  .logo img {
+    width: 100%; 
+    height: auto;
+  }  
 
 .intro-text {
     font-size: 1.2rem;

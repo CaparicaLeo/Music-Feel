@@ -1,14 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './style.css'; // Arquivo de estilos
-import aula1Image from '../../assets/violão 2.jpg'; // Exemplo de imagem, substitua pelos seus arquivos
+import './style.css'; 
+import aula1Image from '../../assets/violão 2.jpg'; 
 import aula2Image from '../../assets/violão 3.jpg';
 import aula3Image from '../../assets/violão 4.jpg';
 import aula4Image from '../../assets/violão 5.jpg';
+import logo from '../../assets/logosemfundoroxo.png';
 
 const Guitar = () => {
   return (
     <div className="guitar-container">
+      {/* Logo */}
+      <div className="logo">
+        <img src={logo} alt="Logo do MusicFeel" />
+      </div>
+      
       <h1>Aulas de Violão</h1>
       <p>
         Bem-vindo ao curso de violão para iniciantes! O violão é um dos

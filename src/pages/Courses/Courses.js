@@ -1,16 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';  // Importando o Link do react-router-dom
-import './style.css'; // Arquivo de estilos
+import { Link } from 'react-router-dom';  
+import './style.css'; 
 import guitar from '../../assets/violão.png';
 import bass from '../../assets/baixo.png';
 import piano from '../../assets/piano.jpg';
 import violin from '../../assets/violino.jpg';
+import logo from '../../assets/logosemfundoroxo.png';
 
 const Courses = () => {
     return (
         <div className="courses-container">
             <div className="logo">
-                <h1>MusicFeel</h1>
+                <img src={logo} alt="Logo do MusicFeel" />
             </div>
             <p className="intro-text">
                 Escolha o instrumento dos seus sonhos e comece sua jornada musical hoje mesmo!

@@ -6,6 +6,23 @@
     color: #fff;
 }
 
+/* Ajustes para a Logo */
+.logo {
+  width: 250px;
+  height: auto; 
+  object-fit: contain; 
+  margin-left: -10px; 
+  position: absolute; 
+  top: -60px; 
+  left: -30px; 
+}
+
+.logo img {
+  width: 100%; 
+  height: auto;
+}
+
+/* Ajustes para a Seção de Introdução */
 .guitar-container h1 {
     font-size: 2rem;
     margin-bottom: 20px;

@@ -1,12 +1,11 @@
 import React from 'react';
-import './style.css';  // Estilos globais
-import Footer from '../../components/Footer/Footer';  // Corrigindo o caminho para Footer.js
+import './style.css'; 
+import Footer from '../../components/Footer/Footer';
 import logo from '../../assets/logosemfundoroxo.png';
 import { Link } from 'react-router-dom';
 
 const Home = () => (
   <div className="home">
-    {/* Logo - Alterando para uma tag div correta */}
     <div className="logo">
       <img src={logo} alt="Logo do MusicFeel" />
     </div>
