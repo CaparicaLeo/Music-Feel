@@ -1,0 +1,128 @@
+/* Estilos globais */
+@import url("https://fonts.googleapis.com/css?family=Nunito:700,600");
+body {
+  margin: 0;
+  font-family: "Nunito";
+  background-color: #121212;  /* Fundo preto para o corpo */
+  color: white;
+  padding: 0;
+}
+
+/* Logo */
+.logo {
+  width: 200px; /* Tamanho da logo */
+  height: auto; /* Mantém a proporção original */
+  object-fit: contain; /* Garante que a imagem seja exibida corretamente */
+  margin-left: 20px; /* Adiciona uma margem para afastar da borda esquerda */
+}
+
+.logo img {
+  width: 100%; /* A logo vai ocupar 100% do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+  object-fit: contain; /* Garante que a imagem não distorça */
+}
+
+
+/* Estilo para a Seção de Introdução */
+.intro-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #121212;  /* Fundo preto para a seção de introdução */
+}
+
+.intro-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.intro-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* Estilos dos Botões */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button-primary,
+.button-secondary {
+  padding: 15px 30px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.button-primary {
+  background-color: #9b4de5;
+  color: white;
+}
+
+.button-primary:hover {
+  background-color: #7a2ccf;
+}
+
+.button-secondary {
+  background-color: transparent;
+  border: 2px solid #9b4de5;
+  color: #9b4de5;
+}
+
+.button-secondary:hover {
+  background-color: #9b4de5;
+  color: white;
+}
+
+/* Seção de Planos */
+.plans-section {
+  background-color: #3b3b3c;  /* Fundo roxo para a seção de planos */
+  text-align: center;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plans-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}

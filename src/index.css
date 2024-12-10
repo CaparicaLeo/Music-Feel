@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    font-family: "Nunito";
+    background-color: #121212;
+    color: white;
+    padding-top: 80px;  /* Ajuste para compensar a navbar fixa */
+  }
+  
+  h1, h2 {
+    color: #fff;
+  }
+  

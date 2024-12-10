@@ -1,0 +1,65 @@
+/* Estilos do Footer */
+.footer {
+  background-color: #52187B;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* Alinha as divs de forma espaçada */
+}
+
+.div-links {
+  p {
+    color: black;
+    font-family: "Nunito", "Heuvica";
+    font-size: 20px;
+  }
+}
+
+.div-imgs {
+  display: flex;
+  justify-content: center; /* Centraliza os ícones */
+  gap: 20px; /* Espaça os ícones */
+}
+
+.div-imgs img {
+  width: 65px; /* Tamanho fixo para as imagens dos ícones */
+  height: auto; /* Mantém a proporção das imagens */
+  object-fit: contain; /* Garante que a imagem não distorça */
+}
+
+/* Outros estilos do Footer */
+.footer-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.bloco {
+  text-align: left;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
