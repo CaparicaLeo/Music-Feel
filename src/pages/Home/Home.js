@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';  // Estilos globais
 import Footer from '../../components/Footer/Footer';  // Corrigindo o caminho para Footer.js
 import logo from '../../assets/logosemfundoroxo.png';
+import { Link } from 'react-router-dom';
 
 const Home = () => (
   <div className="home">
@@ -19,7 +20,7 @@ const Home = () => (
     </section>
     <section id="planos" className="plans-section">
       <div className="buttons">
-        <button className="button-primary">Comece agora</button>
+        <Link to="/login" className="button-primary">Comece agora</Link>
         <button className="button-secondary">Visualizar todos os planos</button>
       </div>
       <h2>Planos acessíveis para qualquer situação. Escolha o plano ideal e aprenda a tocar o instrumento dos seus sonhos.
