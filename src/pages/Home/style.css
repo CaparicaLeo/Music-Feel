@@ -8,26 +8,27 @@ body {
   padding: 0;
 }
 
-/* Logo */
+/* Ajustes para a Logo */
 .logo {
-  width: 200px; /* Tamanho da logo */
-  height: auto; /* Mantém a proporção original */
-  object-fit: contain; /* Garante que a imagem seja exibida corretamente */
-  margin-left: 20px; /* Adiciona uma margem para afastar da borda esquerda */
+  width: 250px; /* Aumenta o tamanho da logo */
+  height: auto; /* Mantém a proporção da imagem */
+  object-fit: contain; /* Garante que a imagem não seja distorcida */
+  margin-left: -10px; /* Margem à esquerda */
+  position: absolute; /* Posiciona a logo no topo da página */
+  top: -60px; /* Afasta a logo do topo */
+  left: -30px; /* Afasta a logo da borda esquerda */
 }
 
 .logo img {
-  width: 100%; /* A logo vai ocupar 100% do contêiner */
-  height: auto; /* Mantém a proporção da imagem */
-  object-fit: contain; /* Garante que a imagem não distorça */
+  width: 100%; 
+  height: auto;
 }
-
 
 /* Estilo para a Seção de Introdução */
 .intro-section {
-  padding: 60px 20px;
+  padding: 120px 20px; /* Aumenta o espaçamento superior para separar do logo */
   text-align: center;
-  background-color: #121212;  /* Fundo preto para a seção de introdução */
+  background-color: #121212; /* Fundo preto para a seção de introdução */
 }
 
 .intro-section h1 {
@@ -40,55 +41,71 @@ body {
   margin-bottom: 30px;
 }
 
-/* Estilos dos Botões */
+
 .buttons {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 30px; /* Maior espaçamento entre os botões */
+  margin-top: 20px; /* Adiciona um espaçamento extra acima */
 }
 
 .button-primary,
 .button-secondary {
-  padding: 15px 30px;
+  padding: 10px 50px;
   font-size: 1rem;
   border: none;
   cursor: pointer;
   border-radius: 8px;
   transition: all 0.3s ease;
+  background-color: #9b4de5
 }
 
 .button-primary {
   background-color: #9b4de5;
   color: white;
+  padding: 12px 40px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px; /* Cantos mais arredondados */
+  transition: all 0.3s ease;
+  border: 2px solid white
 }
 
 .button-primary:hover {
   background-color: #7a2ccf;
+  transform: scale(1.05); /* Pequeno efeito de zoom ao passar o mouse */
 }
 
 .button-secondary {
-  background-color: transparent;
-  border: 2px solid #9b4de5;
-  color: #9b4de5;
+  background-color: #9b4de5; /* Fundo roxo */
+  color: white; /* Texto branco */
+  border: 2px solid white; /* Borda branca */
+  padding: 12px 40px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 12px;
+  transition: all 0.3s ease;
 }
 
 .button-secondary:hover {
-  background-color: #9b4de5;
-  color: white;
+  background-color: #7a2ccf; /* Fundo roxo mais escuro ao passar o mouse */
+  color: white; /* Mantém o texto branco */
+  transform: scale(1.05); /* Pequeno efeito de zoom */
 }
 
 /* Seção de Planos */
 .plans-section {
-  background-color: #3b3b3c;  /* Fundo roxo para a seção de planos */
-  text-align: center;
-  padding: 40px 20px;
+  background-color: #121212; 
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  padding: 100px 20px; /* Reduzindo um pouco o espaçamento */
 }
 
-.plans-section h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
+.plans-section {
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
 }
 
 /* Footer */
